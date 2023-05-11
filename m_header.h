@@ -10,5 +10,5 @@ using namespace std;
 #ifndef m_header_h
 #define m_header_h
 void printName(string name);
-
+int createDataFile();
 #endif /* m_header_h */
