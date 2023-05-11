@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		731BCFEF2A0C8C1900E8E451 /* CPP_tuts */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CPP_tuts; sourceTree = BUILT_PRODUCTS_DIR; };
 		731BCFF22A0C8C1900E8E451 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		731BCFF92A0C8D8200E8E451 /* m_header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = m_header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +42,8 @@
 		731BCFE62A0C8C1900E8E451 = {
 			isa = PBXGroup;
 			children = (
-				731BCFF12A0C8C1900E8E451 /* CPP_tuts */,
+				731BCFF92A0C8D8200E8E451 /* m_header.h */,
+				731BCFF12A0C8C1900E8E451 /* cli */,
 				731BCFF02A0C8C1900E8E451 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +56,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		731BCFF12A0C8C1900E8E451 /* CPP_tuts */ = {
+		731BCFF12A0C8C1900E8E451 /* cli */ = {
 			isa = PBXGroup;
 			children = (
 				731BCFF22A0C8C1900E8E451 /* main.cpp */,
 			);
-			path = CPP_tuts;
+			path = cli;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
